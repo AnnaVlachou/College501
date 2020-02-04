@@ -1,5 +1,8 @@
 package gr.codehub.college;
 
+import gr.codehub.college501.AchievedMark;
+import gr.codehub.college501.MarkModule;
+import gr.codehub.college501.Student;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

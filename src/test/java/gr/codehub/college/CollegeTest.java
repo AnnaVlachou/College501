@@ -1,5 +1,6 @@
 package gr.codehub.college;
 
+import gr.codehub.college501.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
