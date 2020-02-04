@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="13" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="gr.codehub.college.Student" id="Student0">
+    <void property="id">
+     <int>2</int>
+    </void>
+    <void property="markModules">
+     <void method="add">
+      <object class="gr.codehub.college.MarkModule" id="MarkModule0">
+       <void property="achievedMarks">
+        <object class="gr.codehub.college.AchievedMark" id="AchievedMark0">
+         <void property="date">
+          <object class="java.util.Date">
+           <long>1546380000000</long>
+          </object>
+         </void>
+         <void property="mark">
+          <int>5</int>
+         </void>
+        </object>
+       </void>
+       <void property="module">
+        <object class="gr.codehub.college.Module">
+         <void property="assignedTutor">
+          <string>John Smith</string>
+         </void>
+         <void property="course">
+          <object class="gr.codehub.college.Course">
+           <void property="cohort">
+            <object class="java.lang.Enum" id="Cohort0" method="valueOf">
+             <class>gr.codehub.college.Cohort</class>
+             <string>SEPT_2019_JUN_2020</string>
+            </object>
+           </void>
+           <void property="location">
+            <string>Athens</string>
+           </void>
+           <void property="name">
+            <string>SQL</string>
+           </void>
+          </object>
+         </void>
+         <void property="moduleType">
+          <object class="java.lang.Enum" method="valueOf">
+           <class>gr.codehub.college.ModuleType</class>
+           <string>MANDATORY</string>
+          </object>
+         </void>
+         <void property="name">
+          <string>Programming</string>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="gr.codehub.college.MarkModule" id="MarkModule1">
+       <void property="achievedMarks">
+        <object idref="AchievedMark0"/>
+       </void>
+       <void property="module">
+        <object class="gr.codehub.college.Module">
+         <void property="assignedTutor">
+          <string>Ema Jones</string>
+         </void>
+         <void property="course">
+          <object class="gr.codehub.college.Course">
+           <void property="cohort">
+            <object idref="Cohort0"/>
+           </void>
+           <void property="location">
+            <string>Athens</string>
+           </void>
+           <void property="name">
+            <string>JAVA</string>
+           </void>
+          </object>
+         </void>
+         <void property="moduleType">
+          <object class="java.lang.Enum" method="valueOf">
+           <class>gr.codehub.college.ModuleType</class>
+           <string>OPTIONAL</string>
+          </object>
+         </void>
+         <void property="name">
+          <string>Programming</string>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="gr.codehub.college.Student" id="Student1">
+    <void property="id">
+     <int>3</int>
+    </void>
+    <void property="markModules">
+     <void method="add">
+      <object idref="MarkModule0"/>
+     </void>
+     <void method="add">
+      <object idref="MarkModule1"/>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
